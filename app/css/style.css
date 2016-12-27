@@ -31,11 +31,12 @@ body {
     width: 50px;
     height: 50px;
     transition: all .07s;
-    background: url("/images/opacitybg.png"); }
+    background: rgba(0, 0, 0, 0.1); }
     .container .key .name {
       font-size: 10px;
       color: greenyellow; }
   .container .playing {
     transform: scale(1.2);
     border: 3px solid greenyellow;
-    box-shadow: 0px 0px 12px greenyellow; }
+    box-shadow: 0px 0px 12px greenyellow;
+    background: rgba(0, 0, 0, 0.7); }
